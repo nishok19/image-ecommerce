@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ImageKitProvider, IKImage } from "imagekitio-next";
+import { ImageKitProvider } from "imagekitio-next";
 import { SessionProvider } from "next-auth/react";
 import { NotificationProvider } from "./Notification";
 

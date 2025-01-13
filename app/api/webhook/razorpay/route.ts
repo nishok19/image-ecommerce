@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import crypto from "crypto";
-import { error } from "console";
 import { connectToDatabase } from "@/lib/db";
 import Order from "@/models/Order";
 import nodemailer from "nodemailer";

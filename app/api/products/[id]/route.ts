@@ -1,6 +1,5 @@
 import { connectToDatabase } from "@/lib/db";
 import Product from "@/models/Product";
-import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(
